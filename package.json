@@ -1,0 +1,19 @@
+{
+  "name": "seekerplay",
+  "version": "1.0.0",
+  "description": "Local music player using Webamp with playlist management",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "webamp": "^1.5.0",
+    "idb": "^8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  }
+}
